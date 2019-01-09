@@ -1,0 +1,32 @@
+.treenode {
+  white-space: nowrap;
+  outline: none;
+}
+
+.treecontent {
+  display: flex;
+  align-items: center;
+  height: 26px;
+  cursor: pointer;
+  color: #666;
+  font-size: 14px;
+}
+
+.treecontent>.icon-right {
+  margin-right: 6px;
+  transform: rotate(0deg);
+  color: #ccc;
+}
+
+.treecontent>i:before {
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+}
+
+.expandicon:before {
+  transform: rotate(90deg);
+}
+
+.icon-wenjian {
+  font-size: 19px;
+}
